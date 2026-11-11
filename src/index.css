@@ -1,0 +1,12 @@
+body { margin: 0; font-family: system-ui, sans-serif; }
+.layout { display: flex; min-height: 100vh; }
+nav { width: 230px; background: #1e1e2e; color: #fff; padding: 12px; }
+nav h2 { font-size: 16px; margin: 4px 0 12px; }
+nav button { display: block; width: 100%; text-align: left; background: none; border: 0; color: #cdd6f4; padding: 8px; cursor: pointer; border-radius: 6px; }
+nav button.active, nav button:hover { background: #313244; }
+main { flex: 1; padding: 24px; max-width: 720px; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin: 8px 0; }
+.todo { text-decoration: none; } .todo.done { text-decoration: line-through; color: #888; }
+input, select, button { padding: 6px 8px; margin: 2px; }
+code { background: #f3f3f3; padding: 1px 4px; border-radius: 4px; }
+.exercise { background: #fff8d6; border-left: 4px solid #e0b400; padding: 8px 12px; margin-top: 20px; }
